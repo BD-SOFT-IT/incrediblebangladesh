@@ -28,4 +28,18 @@ class TravelScheduleController extends Controller
         return redirect()->back();
 //        dd($request->all());
     }
+    public function editForm($id)
+    {
+        return view('back_end.travel.edit_schedule')->with([
+            'edit_schedule'     => TravelSchedule::findorfail($id)
+        ]);
+    }
+    public function deleteForm($id)
+    {
+        $delete_schedule = TravelSchedule::findorfail($id);
+
+        $delete_schedule->delete();
+
+        return redirect()->back();
+    }
 }
