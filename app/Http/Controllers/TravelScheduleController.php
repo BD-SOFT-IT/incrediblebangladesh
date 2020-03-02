@@ -31,7 +31,8 @@ class TravelScheduleController extends Controller
     public function editForm($id)
     {
         return view('back_end.travel.edit_schedule')->with([
-            'edit_schedule'     => TravelSchedule::findorfail($id)
+            'edit_schedule'     => TravelSchedule::findorfail($id),
+            'travel_packages'   => TravelPackage::all(),
         ]);
     }
     public function deleteForm($id)

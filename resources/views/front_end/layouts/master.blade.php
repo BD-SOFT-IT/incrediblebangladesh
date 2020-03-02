@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="{{ asset('front_end/css/nouislider.min.css') }}">
     <link rel="stylesheet" href="{{ asset('front_end/css/ion.rangeSlider.css') }}"/>
     <link rel="stylesheet" href="{{ asset('front_end/css/ion.rangeSlider.skinFlat.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('back_end/css/justifiedGallery.css') }}">
+    <link rel="stylesheet" href="{{ asset('front_end/css/colorbox.css') }}">
     <link rel="stylesheet" href="{{ asset('front_end/css/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ asset('front_end/css/intlTelInput.css') }}">
     <link rel="stylesheet" href="{{ asset('front_end/css/main.css') }}">
@@ -216,6 +218,37 @@
 <!-- End footer Area -->
 
 <script src="{{ asset('front_end/js/vendor/jquery-2.2.4.min.js') }}"></script>
+<script src="{{ asset('back_end/js/jquery.justifiedGallery.js')}}"></script>
+<script src="{{ asset('front_end/js/jquery.colorbox-min.js') }}"></script>
+<script>
+    $('#gallery').justifiedGallery({
+        rowHeight: 160,
+        maxRowHeight: null,
+        margins: 5,
+        border: 0,
+        rel: 'group1',
+        lastRow: 'nojustify',
+        captions: true,
+        randomize: false,
+        // sizeRangeSuffixes: {
+        //     lt100: '_t',
+        //     lt240: '_m',
+        //     lt320: '_n',
+        //     lt500: '',
+        //     lt640: '_z',
+        //     lt1024: '_b'
+        // }
+    }).on('jg.complete', function () {
+        $(this).find('a').colorbox({
+            maxWidth: '80%',
+            maxHeight: '80%',
+            opacity: 0.8,
+            transition: 'elastic',
+            current: '',
+
+        });
+    });
+</script>
 <script src="{{ asset('front_end/js/vendor/popper.js') }}"></script>
 <script src="{{ asset('front_end/js/vendor/bootstrap.min.js') }}"></script>
 <script src="{{ asset('front_end/js/jquery.ajaxchimp.min.js') }}"></script>

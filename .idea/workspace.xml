@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1cb7cc-15e3-4774-8c7a-41429c0aa943" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TravelPackageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TravelPackageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TravelScheduleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TravelScheduleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/TravelPackage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TravelPackage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/TravelSchedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TravelSchedule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back_end/travel/schedules.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/travel/schedules.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/lfm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/test.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/test.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front_end/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front_end/layouts/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +77,6 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition" />
-      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
       <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
       <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
@@ -121,7 +124,7 @@
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WjjnUGZN2mEmSLWHC8A3CEKoNC" />
@@ -131,6 +134,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -220,6 +224,8 @@
       <workItem from="1582952872690" duration="16275000" />
       <workItem from="1583040220248" duration="5171000" />
       <workItem from="1583050570936" duration="7617000" />
+      <workItem from="1583076814608" duration="3291000" />
+      <workItem from="1583130606138" duration="10153000" />
     </task>
     <servers />
   </component>
@@ -231,6 +237,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1581576222992" />
+    <state x="459" y="277" key="ComposerInitDialogKey" timestamp="1583144444072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="459" y="277" key="ComposerInitDialogKey/0.0.1366.728@0.0.1366.728" timestamp="1583144444072" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1582197048950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -259,9 +269,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581925608396" />
-    <state x="78" y="20" width="670" height="676" key="search.everywhere.popup" timestamp="1581934762435">
+    <state x="78" y="20" width="670" height="676" key="search.everywhere.popup" timestamp="1583141586778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="78" y="20" width="670" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581934762435" />
+    <state x="78" y="20" width="670" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583141586778" />
   </component>
 </project>

@@ -79,7 +79,3 @@ Route::prefix('incredible/')->group(function() {
     route::post('add/update','WhyIncredibleController@updateFrom')->name('why.update');
 });
 
-//Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
-//    \UniSharp\LaravelFilemanager\Lfm::routes();
-//
-//});

@@ -24,6 +24,25 @@
                         <p>{!! $request->package_description !!}</p>
                     </div>
                 </div>
+                <div id="gallery">
+                    <a class="group1" href="{{ asset('back_end/img/unsplash/demo.jpg') }}">
+                        <img src="{{ asset('back_end/img/unsplash/demo.jpg') }}" alt="">
+                        <div class="caption">Testing</div>
+                    </a>
+                    <a href="{{ asset('back_end/img/unsplash/demo.jpg') }}">
+                        <img src="{{ asset('back_end/img/unsplash/demo.jpg') }}" alt="">
+                        <div class="caption">Testing</div>
+                    </a><a href="{{ asset('back_end/img/unsplash/demo.jpg') }}">
+                        <img src="{{ asset('back_end/img/unsplash/demo.jpg') }}" alt="">
+                        <div class="caption">Testing</div>
+                    </a><a href="{{ asset('back_end/img/unsplash/demo.jpg') }}">
+                        <img src="{{ asset('back_end/img/unsplash/demo.jpg') }}" alt="">
+                        <div class="caption">Testing</div>
+                    </a><a href="{{ asset('back_end/img/unsplash/demo.jpg') }}">
+                        <img src="{{ asset('back_end/img/unsplash/demo.jpg') }}" alt="">
+                        <div class="caption">Testing</div>
+                    </a>
+                </div>
             </div>
 
             <div class="col-lg-4 ib-px-none">
@@ -40,6 +59,8 @@
                     <h6>Best Time To Go :      <span> {{ $request->package_best_time }}</span></h6>
                     <h6>Next Schedule :    <span> 20-04-2020</span></h6>
                 </div>
+
+
             </div>
         </div>
     </div>
