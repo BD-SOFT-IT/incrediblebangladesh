@@ -57,6 +57,7 @@ Route::prefix('travel/')->group(function () {
     Route::post('schedule', 'TravelScheduleController@processScheduleForm');
 
     Route::get('schedule/edit/{id}','TravelScheduleController@editForm')->name('travel.edit');
+    Route::post('schedule/update','TravelScheduleController@updateForm')->name('travel.update');
     Route::get('schedule/delete/{id}','TravelScheduleController@deleteForm')->name('travel.delete');
 
     // Travel blog route section

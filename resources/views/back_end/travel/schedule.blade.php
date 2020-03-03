@@ -13,7 +13,7 @@
                            <div class="form-row mb-3">
                                <div class="col">
                                    <small>Select package <sup class="text-danger">*</sup></small>
-                                   <select name="package_schedule_id" id="" class="form-control">
+                                   <select name="package_id" id="" class="form-control">
                                        <option disable selected> Please Select a Category</option>
                                        @foreach($travel_packages as $package)
                                            <option value="{{ $package->id }}">{{ $package->package_title }}</option>

@@ -344,6 +344,13 @@
 <script src="{{ asset('back_end/js/moment.js') }}"></script>
 <script src="{{ asset('back_end/js/stisla.js') }}"></script>
 <script src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script>
+<script>
+    $('#packageScheduleTable').DataTable({
+        processing: true,
+        bInfo: false,
+        lengthChange: false
+    })
+</script>
 
 <!-- Template JS File -->
 <script src="{{ asset('back_end/js/scripts.js') }}"></script>

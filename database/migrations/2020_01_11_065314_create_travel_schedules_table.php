@@ -15,7 +15,7 @@ class CreateTravelSchedulesTable extends Migration
     {
         Schema::create('travel_schedules', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('package_schedule_id');
+            $table->string('package_id');
             $table->string('package_schedule');
             $table->string('package_schedule_time');
             $table->string('package_max_member');

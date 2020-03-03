@@ -7,12 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 class TravelSchedule extends Model
 {
     protected $fillable = [
-        'package_schedule_id','package_schedule','package_max_member','package_ex_description','package_schedule_time'
+        'package_id','package_schedule','package_max_member','package_ex_description','package_schedule_time'
     ];
 
-    public function TravelPackageName()
+    public function package()
     {
-        return $this->hasMany(TravelPackage::class,'id','package_schedule_id');
+        return $this->belongsTo(TravelPackage::class);
     }
 
 }

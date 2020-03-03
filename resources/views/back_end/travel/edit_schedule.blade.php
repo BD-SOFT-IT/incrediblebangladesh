@@ -9,16 +9,19 @@
                 <div class="card">
                     <div class="card-header ib-card-header"><h4>schedule for package</h4></div>
                     <div class="card-body">
-                        <form action="{{ route('travel.schedule') }}" method="post" autocomplete="off">
+                        <form action="{{ route('travel.update') }}" method="post" autocomplete="off">
+                            @csrf
                             <div class="form-row mb-3">
                                 <div class="col">
                                     <small>Select package <sup class="text-danger">*</sup></small>
-                                    <select name="package_schedule_id" id="" class="form-control">
-                                        <option disable selected> Please Select a Category</option>
+                                    <select name="package_id" id="" class="form-control">
+{{--                                        <option disable selected> Please Select a Category</option>--}}
+                                        <option value="{{ $edit_schedule->package_id }}" selected>{{ $edit_schedule->package->package_title }}</option>
 {{--                                        @foreach($travel_packages as $package)--}}
 {{--                                            <option value="{{ $package->id }}">{{ $package->package_title }}</option>--}}
 {{--                                        @endforeach--}}
                                     </select>
+                                    <input type="hidden" name="id" value="{{ $edit_schedule->id }}">
                                 </div>
                             </div>
                             <div class="form-row mb-3">
