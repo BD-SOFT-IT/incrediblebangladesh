@@ -15,7 +15,7 @@
 
                         <div class="ib-seat-counter">
                             <i class="fas fa-chair"></i>
-                            <h5>{{ $request->package_max_member }}</h5>
+                            <h5>20</h5>
                         </div>
                     </div>
 

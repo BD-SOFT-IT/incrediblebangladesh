@@ -13,22 +13,10 @@
                         <div class="card-body">
                             <div class="form-row mb-3">
                                 <div class="col">
-                                    <small class="ib-custom-label">Package Category <sup
-                                            class="text-danger">*</sup></small>
-                                    <select name="package_category" id="packageCategory" class="form-control">
-                                        <option value="">Awesome Holiday</option>
-                                        <option value="">Feature Tour</option>
-                                        <option value="">Day Tour</option>
-                                        <option value="">Upcoming Tour</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-row mb-3">
-                                <div class="col">
                                     <small class="ib-custom-label">Blog Title <sup
                                             class="text-danger">*</sup></small>
                                     <input type="text" name="blog_title" id="packageTitle"
-                                           class="form-control form-control-sm" placeholder="Exploring Coxsbazar">
+                                           class="form-control form-control-sm" placeholder="Two Days for Bangladesh">
                                 </div>
                             </div>
                             <div class="form-row mb-3">

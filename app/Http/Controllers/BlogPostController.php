@@ -16,7 +16,7 @@ class BlogPostController extends Controller
     }
     public function processBlogFrom(Request $request)
     {
-
+        dd($request->all());
     }
     public function showBlogReview()
     {

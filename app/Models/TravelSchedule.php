@@ -15,4 +15,5 @@ class TravelSchedule extends Model
         return $this->belongsTo(TravelPackage::class);
     }
 
+
 }
