@@ -258,12 +258,41 @@
 <script src="{{ asset('front_end/js/countdown.js') }}"></script>
 <script src="{{ asset('front_end/js/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ asset('front_end/js/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('front_end/js/jquery.mousewheel.min.js') }}"></script>
 <script src="{{ asset('front_end/js/intlTelInput.js') }}"></script>
 <script src="{{ asset('front_end/js/main.js') }}"></script>
 <script>
     var input = document.querySelector("#phone");
     window.intlTelInput(input, {
         utilsScript: "../front_end/js/utils.js",
+    });
+</script>
+<script>
+    let owl = $('.owl-carousel');
+    owl.owlCarousel({
+        stagePadding: 144,
+        responsiveClass:true,
+        loop:true,
+        margin:10,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+              items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+    owl.on('mousewheel', '.owl-stage', function (e) {
+        if (e.deltaY>0) {
+            owl.trigger('next.owl');
+        } else {
+            owl.trigger('prev.owl');
+        }
+        e.preventDefault();
     });
 </script>
 </body>

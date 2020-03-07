@@ -2,89 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1cb7cc-15e3-4774-8c7a-41429c0aa943" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/incrediblebangladesh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/incrediblebangladesh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TravelPackageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TravelPackageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/TravelPackage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TravelPackage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/TravelSchedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TravelSchedule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/advlist/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/anchor/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/autolink/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/autoresize/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/autosave/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/bbcode/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/charmap/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/code/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/code/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/codesample/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/colorpicker/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/contextmenu/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/directionality/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/emoticons/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/fullpage/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/fullscreen/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/help/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/help/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/hr/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/image/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/image/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/imagetools/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/importcss/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/insertdatetime/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/legacyoutput/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/link/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/link/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/lists/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/media/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/media/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/nonbreaking/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/noneditable/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/pagebreak/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/paste/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/preview/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/print/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/print/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/quickbars/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/quickbars/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/save/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/save/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/searchreplace/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/spellchecker/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/tabfocus/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/table/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/table/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/template/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/template/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/textcolor/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/textpattern/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/toc/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/toc/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/visualblocks/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/visualchars/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/wordcount/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide-dark/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide-dark/content.inline.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide-dark/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide-dark/content.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide-dark/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide-dark/skin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide/content.inline.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide/content.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/skins/ui/oxide/skin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/themes/mobile/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/themes/mobile/theme.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/themes/silver/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/themes/silver/theme.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/back_end/vendor/tinymce/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/back_end/vendor/tinymce/tinymce.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/cropper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/dropzone.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/lfm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/mime-icons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/adobe.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/folder-1/sleeping-dog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/word.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/test-folder/sleeping-dog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/test-folder/thumbs/sleeping-dog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/152px color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/72px color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/92px color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/Logomark color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/loader.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/cropper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/dropzone.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/stand-alone-button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back_end/blog/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/blog/blog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back_end/test.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/test.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back_end/travel/packages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/travel/packages.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front_end/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front_end/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/disabled-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/disabled-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/flags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/flags@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/g2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/g3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/g4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/g5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/g6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/g7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/g8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/primary-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/primary-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/success-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/elements/success-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/fav.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/front_end/img/fav.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/b2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/b3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/b4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/cd-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/cd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/ci1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/ci2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/ci3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/m1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/mp9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/ob1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/ob2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/ob3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/p4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/p5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/p6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/p7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/p8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/pl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/pl2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/pl3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/pl4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/pl5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/pl6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/pl7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/pl8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/pm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/q1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/u1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/u2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/organic-food/u3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/card.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/e-p1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/p4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/p5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/p6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/p7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/p8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/review-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/review-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/product/review-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/sd/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/sd/c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/sd/c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/sd/c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/img/sd/c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front_end/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/front_end/js/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/travel/package.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/travel/package.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front_end/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front_end/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front_end/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front_end/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +230,7 @@
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WjjnUGZN2mEmSLWHC8A3CEKoNC" />
@@ -303,6 +337,10 @@
       <workItem from="1583232475968" duration="85000" />
       <workItem from="1583297636197" duration="311000" />
       <workItem from="1583300235055" duration="15337000" />
+      <workItem from="1583336644332" duration="44000" />
+      <workItem from="1583383972166" duration="17417000" />
+      <workItem from="1583437244432" duration="465000" />
+      <workItem from="1583556662880" duration="8953000" />
     </task>
     <servers />
   </component>
@@ -318,10 +356,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="277" key="ComposerInitDialogKey/0.0.1366.728@0.0.1366.728" timestamp="1583144444072" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1583232562933">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1583336688175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583232562933" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583336688175" />
     <state width="1323" height="188" key="GridCell.Tab.0.bottom" timestamp="1581935643367">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -342,6 +380,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583053178928" />
+    <state x="0" y="0" width="737" height="728" key="find.popup" timestamp="1583386271717">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="737" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583386271717" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1581925608396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

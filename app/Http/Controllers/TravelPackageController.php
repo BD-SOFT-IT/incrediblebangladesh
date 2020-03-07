@@ -28,13 +28,13 @@ class TravelPackageController extends Controller
     public function processPackageForm(Request $request)
     {
 
-//        TravelPackage::create($request->all());
-//
-//        return redirect()->back();
+        TravelPackage::create($request->all());
+
+        return redirect()->back();
 
 
-        return view('back_end.test')->with([
-            'request'   => $request
-        ]);
+//        return view('back_end.test')->with([
+//            'request'   => $request
+//        ]);
     }
 }

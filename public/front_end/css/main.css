@@ -1862,13 +1862,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .features-inner {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 21px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
     padding: 40px 0;
+    background-color: #fff
 }
 
 .single-features {
     text-align: center;
-    border-right: 1px solid #eeeeee;
+
+    padding-right: 2px;
+    ;
 }
 
 @media (max-width: 991px) {
@@ -8402,4 +8406,28 @@ a.ib-footer-icon:nth-child(0):hover {
     border-radius: 3px;
     padding: 5px 8px;
 
+}
+h2.ib-headline {
+    letter-spacing: 1px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.ib-aw-holiday {
+    overflow: hidden;
+    height: 425px;
+    background-color: #fff;
+    padding: 21px 34px;
+}
+.ib-aw-holiday > .ib-aw-holiday-left {
+    float: left;
+}
+.ib-aw-holiday >.ib-aw-holiday-right {
+    float: right;
+}
+.ib-headline-img img {
+    margin-left: 38%;
+    height: 26px;
+}
+.test {
+    padding: 0;
 }

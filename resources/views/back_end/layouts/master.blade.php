@@ -335,7 +335,10 @@
 <!-- General JS Scripts -->
 <script src="{{ asset('back_end/js/jquery-3.4.1.min.js')}}"></script>
 <script src="{{ asset('back_end/vendor/tinymce/tinymce.min.js') }}"></script>
-
+<script src="{{ asset('vendor/laravel-filemanager/js/stand-alone-button.js') }}"></script>
+<script>
+    $('#lfm').filemanager('image')
+</script>
 
 
 <script src="{{ asset('back_end/vendor/popper.js') }}"></script>

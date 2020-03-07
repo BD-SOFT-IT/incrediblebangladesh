@@ -2,13 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\TravelPackage;
+use App\Models\TravelSchedule;
+use App\Models\WhyIncredible;
 use Illuminate\Http\Request;
 
 class FrontController extends Controller
 {
     public function home()
     {
-        return view('front_end.home');
+        return view('front_end.home')->with([
+            'why_incredible'    => WhyIncredible::all(),
+            'travel_schedules'    => TravelSchedule::all()
+        ]);
     }
     public function guide()
     {

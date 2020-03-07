@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- About us section started -->
-    <section class="section_gap">
+    <section class="section_gap_75">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -45,52 +45,55 @@
     </section>
     <!-- About us section end-->
 
-    <!-- start features Area -->
-    <section class="features-area section_gap">
+    <!-- start why incredible features Area -->
+    <section class="features-area">
         <div class="container">
-            <div class="row features-inner">
-                <!-- single features -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-features">
-                        <div class="f-icon">
-                            <img src="{{ asset('front_end/img/features/f-icon1.png') }}" alt="">
-                        </div>
-                        <h6>Free Delivery</h6>
-                        <p>Free Shipping on all order</p>
-                    </div>
+            <h2 class="ib-headline text-center">Why Incredible Bangladesh</h2>
+            <span class="ib-headline-img"><img src={{ asset('front_end/img/headline.png') }} alt=""></span>
+            @foreach($why_incredible->chunk(4) as $chunk)
+                <div class="row features-inner mt-5">
+                    @foreach($chunk as $why)
+                            <!-- single features -->
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="single-features">
+                                    <div class="f-icon">
+                                        <img src="{{ asset('front_end/img/features/f-icon1.png') }}" alt="">
+                                    </div>
+                                    <h6>{{ $why->why_title }}</h6>
+                                    <p>{{ $why->why_des }}</p>
+                                </div>
+                            </div>
+                            <!-- single features -->
+                    @endforeach
                 </div>
-                <!-- single features -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-features">
-                        <div class="f-icon">
-                            <img src="{{ asset('front_end/img/features/f-icon2.png') }}" alt="">
-                        </div>
-                        <h6>Return Policy</h6>
-                        <p>Free Shipping on all order</p>
-                    </div>
-                </div>
-                <!-- single features -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-features">
-                        <div class="f-icon">
-                            <img src="{{ asset('front_end/img/features/f-icon3.png') }}" alt="">
-                        </div>
-                        <h6>24/7 Support</h6>
-                        <p>Free Shipping on all order</p>
-                    </div>
-                </div>
-                <!-- single features -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-features">
-                        <div class="f-icon">
-                            <img src="{{ asset('front_end/img/features/f-icon4.png') }}" alt="">
-                        </div>
-                        <h6>Secure Payment</h6>
-                        <p>Free Shipping on all order</p>
+            @endforeach
+        </div>
+    </section>
+    <!-- end why incredible features Area -->
+
+    <section class="section_gap_75">
+        <div class="container">
+            <h2 class="ib-headline text-center">Awesome Holiday Package</h2>
+            <span class="ib-headline-img"><img src={{ asset('front_end/img/headline.png') }} alt=""></span>
+            <div class="row">
+                <div class="col-lg-12 mx-auto test">
+                    <div class="owl-carousel owl-theme">
+                        @foreach($travel_schedules as $p)
+                            <div class="item mt-5">
+                                <div class="ib-aw-holiday">
+                                    <div class="ib-aw-holiday-left">Lorem</div>
+                                    <div class="ib-aw-holiday-right">
+                                        <h4><a href="">{{ $p->package->package_title }}</a></h4>
+                                        <span>{{ $p->package->package_sub_title }}</span>
+                                        <h5>{{ $p->package->package_price }}</h5>
+                                        <p class="mt-4">{!! Str::limit($p->package->package_description,150,'  ......') !!}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end features Area -->
 @endsection
