@@ -71,6 +71,8 @@
     </section>
     <!-- end why incredible features Area -->
 
+
+    <!-- Start awesome holiday package area -->
     <section class="section_gap_75">
         <div class="container">
             <h2 class="ib-headline text-center">Awesome Holiday Package</h2>
@@ -83,7 +85,7 @@
                                 <div class="ib-aw-holiday">
                                     <div class="ib-aw-holiday-left">Lorem</div>
                                     <div class="ib-aw-holiday-right">
-                                        <h4><a href="">{{ $p->package->package_title }}</a></h4>
+                                        <h4><a href="{{ route('single.package',$p->package_id) }}">{{ $p->package->package_title }}</a></h4>
                                         <span>{{ $p->package->package_sub_title }}</span>
                                         <h5>{{ $p->package->package_price }}</h5>
                                         <p class="mt-4">{!! Str::limit($p->package->package_description,150,'  ......') !!}</p>
@@ -96,4 +98,29 @@
             </div>
         </div>
     </section>
+    <!-- End awesome holiday package area -->
+
+    <!-- Start Feature holiday package area -->
+    <section class="">
+        <div class="container">
+            <h2 class="ib-headline text-center">Feature Holiday Package</h2>
+            <span class="ib-headline-img"><img src={{ asset('front_end/img/headline.png') }} alt=""></span>
+            <div class="row">
+                <div class="col-lg-12 mx-auto test">
+                    <div class="">
+{{--                        @foreach($travel_schedules as $p)--}}
+                            <div class="ib-feature-holiday mt-5">
+                                Hello Dear!
+                                <div class="ib-feature-img">
+                                    <img src="{{ asset('') }}" alt="">
+                                </div>
+                            </div>
+{{--                        @endforeach--}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature holiday package area -->
+
 @endsection

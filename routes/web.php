@@ -21,4 +21,6 @@ Route::get('blog','FrontController@showBlog')->name('travel.tour-blog');
 
 Route::get('reservation','FrontController@makeReservation')->name('travel.reservation');
 
+Route::get('single/package/{id}','FrontController@awesomeHolidayPackage')->name('single.package');
+
 

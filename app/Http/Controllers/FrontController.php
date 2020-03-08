@@ -12,8 +12,8 @@ class FrontController extends Controller
     public function home()
     {
         return view('front_end.home')->with([
-            'why_incredible'    => WhyIncredible::all(),
-            'travel_schedules'    => TravelSchedule::all()
+            'why_incredible'        => WhyIncredible::all(),
+            'travel_schedules'      => TravelSchedule::all()
         ]);
     }
     public function guide()
@@ -31,5 +31,14 @@ class FrontController extends Controller
     public function showBlog()
     {
         return view('front_end.tour_blog');
+    }
+
+    public function awesomeHolidayPackage($id)
+    {
+        $package = TravelSchedule::findorfail($id);
+
+        return view('front_end.single_package')->with([
+            'package'   => $package
+        ]);
     }
 }

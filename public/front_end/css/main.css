@@ -8431,3 +8431,11 @@ h2.ib-headline {
 .test {
     padding: 0;
 }
+
+.ib-feature-holiday {
+    position: relative;
+    height: 425px;
+    background-color: #1b1e21;
+    clip-path: polygon(100% 0, 41% 0, 100% 100%);
+}
+

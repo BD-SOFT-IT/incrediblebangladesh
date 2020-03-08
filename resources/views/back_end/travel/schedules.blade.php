@@ -13,7 +13,7 @@
                             <thead>
                             <tr>
                                 <th>SL</th>
-                                <th>title</th>
+                                <th>Title</th>
                                 <th>Data</th>
                                 <th>Departure</th>
                                 <th>Members</th>
