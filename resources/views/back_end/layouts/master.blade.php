@@ -312,7 +312,6 @@
                         <ul class="dropdown-menu">
                             <li><a href="{{ route('travel.blogs') }}">All Blogs</a></li>
                             <li><a href="{{ route('travel.blog') }}">Add Blog</a></li>
-                            <li><a href="{{ route('travel.blog-review') }}">Review Blogs</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -351,7 +350,7 @@
     $('#packageScheduleTable').DataTable({
         processing: true,
         bInfo: false,
-        lengthChange: false
+        lengthChange: false,
     })
 </script>
 

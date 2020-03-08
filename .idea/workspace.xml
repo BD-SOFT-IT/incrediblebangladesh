@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2a1cb7cc-15e3-4774-8c7a-41429c0aa943" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_04_101030_create_blog_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_04_101030_create_blog_posts_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/front_end/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front_end/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back_end/test.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back_end/travel/schedules.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/travel/schedules.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/blog/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/blog/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/blog/blog_review.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/blog/blogs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/blog/blogs.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/layouts/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front_end/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front_end/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +239,7 @@
       <workItem from="1583556662880" duration="8953000" />
       <workItem from="1583604521081" duration="21000" />
       <workItem from="1583643456851" duration="4556000" />
-      <workItem from="1583649044947" duration="8729000" />
+      <workItem from="1583649044947" duration="17614000" />
     </task>
     <servers />
   </component>
@@ -247,6 +251,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1581576222992" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583663873265">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583663873265" />
     <state x="459" y="277" key="ComposerInitDialogKey" timestamp="1583144444072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -271,10 +279,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581935643367" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1583647615927">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1583667891968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583647615927" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583667891968" />
     <state x="0" y="0" width="737" height="728" key="find.popup" timestamp="1583386271717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

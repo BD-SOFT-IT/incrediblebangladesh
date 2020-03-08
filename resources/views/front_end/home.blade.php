@@ -109,11 +109,9 @@
                 <div class="col-lg-12 mx-auto test">
                     <div class="">
 {{--                        @foreach($travel_schedules as $p)--}}
-                            <div class="ib-feature-holiday mt-5">
-                                Hello Dear!
-                                <div class="ib-feature-img">
-                                    <img src="{{ asset('') }}" alt="">
-                                </div>
+                            <div class="ib-feature-holiday">
+                                <h4 class="text-danger">Hello Dear!</h4>
+{{--                                <img src="{{ asset('back_end/img/nice.jpg') }}" alt="">--}}
                             </div>
 {{--                        @endforeach--}}
                     </div>

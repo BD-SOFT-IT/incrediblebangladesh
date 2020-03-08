@@ -66,8 +66,10 @@ Route::prefix('travel/')->group(function () {
     Route::get('blog', 'BlogPostController@showBlogFrom')->name('travel.blog');
     Route::post('blog', 'BlogPostController@processBlogFrom');
 
-    //Travel blog command review section route
-    Route::get('blog-review','BlogPostController@showBlogReview')->name('travel.blog-review');
+    // Travel blog edit and update section
+    Route::get('blog/edit/{id}','BlogPostController@editForm')->name('blog.edit');
+    Route::post('blog/update','BlogPostController@updateForm')->name('blog.update');
+    Route::get('blog/delete/{id}','BlogPostController@deleteForm')->name('blog.delete');
 });
 
 Route::prefix('incredible/')->group(function() {
