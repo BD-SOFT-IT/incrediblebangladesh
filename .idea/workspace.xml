@@ -4,15 +4,11 @@
     <list default="true" id="2a1cb7cc-15e3-4774-8c7a-41429c0aa943" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_04_101030_create_blog_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_04_101030_create_blog_posts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front_end/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front_end/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/back_end/blog/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/blog/blog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back_end/blog/blog_review.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/back_end/blog/blogs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/blog/blogs.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back_end/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front_end/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front_end/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front_end/tour_blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front_end/tour_blog.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,6 +236,7 @@
       <workItem from="1583604521081" duration="21000" />
       <workItem from="1583643456851" duration="4556000" />
       <workItem from="1583649044947" duration="17614000" />
+      <workItem from="1583732390722" duration="10378000" />
     </task>
     <servers />
   </component>
@@ -283,10 +280,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583667891968" />
-    <state x="0" y="0" width="737" height="728" key="find.popup" timestamp="1583386271717">
+    <state x="0" y="0" width="737" height="728" key="find.popup" timestamp="1583734439002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="737" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583386271717" />
+    <state x="0" y="0" width="737" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583734439002" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1581925608396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

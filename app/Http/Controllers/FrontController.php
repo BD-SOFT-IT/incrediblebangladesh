@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\BlogPost;
 use App\Models\TravelPackage;
 use App\Models\TravelSchedule;
 use App\Models\WhyIncredible;
@@ -30,7 +31,9 @@ class FrontController extends Controller
     }
     public function showBlog()
     {
-        return view('front_end.tour_blog');
+        return view('front_end.tour_blog')->with([
+            'blogs'     => BlogPost::all()
+        ]);
     }
 
     public function awesomeHolidayPackage($id)

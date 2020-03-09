@@ -18,9 +18,23 @@ class BlogPostController extends Controller
     {
         return view('back_end.blog.blog');
     }
+
     public function processBlogFrom(Request $request)
     {
-        BlogPost::create($request->all());
+        $blog_img = $request->file('blog_img');
+        $rename = date('YmdHis').'-'.time().'-'.$blog_img->getClientOriginalName();
+        $dir = './images/blog/';
+        $blog_img->move($dir,$rename);
+        $blog_img = $dir.$rename;
+
+        $blog = new BlogPost();
+
+        $blog->blog_title = $request->blog_title;
+        $blog->blog_sub_title = $request->blog_sub_title;
+        $blog->blog_description = $request->blog_description;
+        $blog->blog_img = $blog_img;
+
+        $blog->save();
 
         return redirect()->intended(route('travel.blogs'));
     }

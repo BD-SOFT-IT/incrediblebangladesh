@@ -22,12 +22,11 @@
                             <tbody>
                             @foreach($blogs as $index=>$blog)
                                 <tr>
-                                    <td>{{ $index+1}}</td>
+                                    <td>{{ $index+1 }}</td>
                                     <td>{{ $blog->blog_title }}</td>
                                     <td>{{ $blog->blog_sub_title }}</td>
-                                    <td>{!! Str::limit($blog->blog_description,120) !!}</td>
-
-                                    <td style="width: 65px">
+                                    <td>{!! Str::limit($blog->blog_description,100) !!}</td>
+                                    <td>
                                         <a href="{{ route('blog.edit',$blog->id) }}" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
                                         <a href="{{ route('blog.delete',$blog->id) }}" class="btn btn-danger btn-sm" onclick="return confirm('Are You Sure?')"><i class="fas fa-dumpster"></i></a>
                                     </td>
