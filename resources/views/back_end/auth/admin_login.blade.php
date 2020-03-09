@@ -23,7 +23,8 @@
             <div class="col-lg-4 col-md-6 col-12 order-lg-1 min-vh-100 order-2 bg-white pt-5">
                 <div class="p-4 m-3">
                     <h4 class="text-dark font-weight-normal">Welcome to<span class="font-weight-bold"> Incredible Bangladesh.</span></h4>
-                    <form method="POST" action="#" class="needs-validation" novalidate="" autocomplete="off">
+                    <form method="POST" action="{{ route('login') }}" class="needs-validation" novalidate="" >
+                        @csrf
                         <div class="form-group ib-form-group-rewrite">
                             <label for="email">Email</label>
                             <input id="email" type="email" class="form-control form-control-sm" name="email" tabindex="1" required autofocus>
@@ -42,22 +43,23 @@
                             </div>
                         </div>
 
-                        <div class="form-group ib-form-group-rewrite">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" name="remember" class="custom-control-input" tabindex="3" id="remember-me">
-                                <label class="custom-control-label" for="remember-me">Remember Me</label>
-                            </div>
-                        </div>
+{{--                        <div class="form-group ib-form-group-rewrite">--}}
+{{--                            <div class="custom-control custom-checkbox">--}}
+{{--                                <input type="checkbox" class="custom-control-input" tabindex="3" id="remember-me" name="remember" {{ old('remember') ? 'checked' : ''}}>--}}
+{{--                                <label class="custom-control-label" for="remember-me">Remember Me</label>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
                         <div class="form-group ib-form-group-rewrite text-right">
-                            <a href="auth-forgot-password.html" class="float-left mt-3">
-                                Forgot Password?
-                            </a>
+{{--                            @if (Route::has('password.request'))--}}
+{{--                            <a href="{{ route('password.request') }}" class="float-left mt-3">--}}
+{{--                                Forgot Password?--}}
+{{--                            </a>--}}
+{{--                            @endif--}}
                             <button type="submit" class="btn btn-primary icon-right text-uppercase px-3" tabindex="4">
                                 Login
                             </button>
                         </div>
-
                     </form>
                 </div>
             </div>

@@ -14,7 +14,8 @@ class DatabaseSeeder extends Seeder
          $this->call([
              PackageCategorySeeder::class,
              WhyIncredibleSeeder::class,
-             TravelPackageSeeder::class
+             TravelPackageSeeder::class,
+             UsersTableSeeder::class,
          ]);
     }
 }

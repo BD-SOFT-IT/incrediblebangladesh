@@ -15,10 +15,14 @@ Route::get('/','FrontController@home')->name('travel.home');
 
 Route::get('guide','FrontController@guide')->name('travel.guide');
 
-Route::get('login','FrontController@showLoginForm')->name('travel.login');
+//Route::get('login','FrontController@showLoginForm')->name('travel.login');
 
 Route::get('blog','FrontController@showBlog')->name('travel.tour-blog');
 
 Route::get('reservation','FrontController@makeReservation')->name('travel.reservation');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
