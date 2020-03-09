@@ -8,6 +8,11 @@ use App\Models\PackageCategory;
 
 class PackageCategoryController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('is_admin');
+    }
+
     public function showAllCategory()
     {
         $package_categories = PackageCategory::all();

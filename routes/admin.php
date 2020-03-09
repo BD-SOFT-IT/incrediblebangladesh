@@ -11,6 +11,10 @@
 |
 */
 
+//Route::group(['middleware' => ['web']], function () {
+Auth::routes();
+//});
+
 // Admin login section route
 Route::prefix('ib-admin/')->group(function () {
     Route::get('login','BlogPostController@testlogin')->name('admin.login');

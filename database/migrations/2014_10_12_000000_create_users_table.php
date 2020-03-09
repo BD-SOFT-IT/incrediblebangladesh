@@ -18,11 +18,11 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('name');
-            $table->string('address');
-            $table->string('profile_img_path');
-            $table->string('role_id')->default(13);
-            $table->softDeletes();
+            $table->string('address')->nullable();
+            $table->string('profile_img_path')->nullable();
+            $table->string('role_id')->default(0);
             $table->timestamp('email_verified_at')->nullable();
+            $table->boolean('is_admin')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

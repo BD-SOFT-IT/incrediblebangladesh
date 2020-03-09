@@ -82,7 +82,15 @@
                             </ul>
                         </li>
                         <li class="nav-item {{ request()->is('guide') ? 'active' : '' }}"><a class="nav-link" href="{{ route('travel.guide') }}">Guide</a></li>
-                        <li class="nav-item {{ request()->is('login') ? 'active' : '' }}"><a class="nav-link" href="{{ route('travel.login') }}"><i class="fa fa-sign-in mr-1"></i>Login</a></li>
+                        <li class="nav-item {{ request()->is('login') ? 'active' : '' }}"><a class="nav-link" href="{{ route('login') }}"><i class="fa fa-sign-in mr-1"></i>
+                                @if(\Illuminate\Support\Facades\Auth::check())
+                                    {{ \Illuminate\Support\Facades\Auth::user()->name }}
+                                @else
+                                    Login
+                                @endif
+                            </a>
+                        </li>
+
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
