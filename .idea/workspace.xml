@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1cb7cc-15e3-4774-8c7a-41429c0aa943" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/front_end/img/profile.png" afterDir="false" />
@@ -34,6 +35,15 @@
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_04_101030_create_blog_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_04_101030_create_blog_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/blog/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/blog/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/blog/blogs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/blog/blogs.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front_end/tour_blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front_end/tour_blog.blade.php" afterDir="false" />
+>>>>>>> d09aa241203dc0b8c45ac26e7bbc3123bb7584b7
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +186,7 @@
       <recent name="D:\BD-Soft IT\IB\incrediblebangladesh\resources\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Works\BDSOFTIT\Dr. Mamun\incrediblebangladesh\resources\views\front_end" />
       <recent name="E:\Works\BDSOFTIT\Dr. Mamun\incrediblebangladesh\app\Models" />
     </key>
   </component>
@@ -268,9 +279,16 @@
       <workItem from="1583383972166" duration="17417000" />
       <workItem from="1583437244432" duration="465000" />
       <workItem from="1583556662880" duration="8953000" />
+<<<<<<< HEAD
       <workItem from="1583644571399" duration="23876000" />
       <workItem from="1583728990719" duration="4197000" />
       <workItem from="1583750219365" duration="643000" />
+=======
+      <workItem from="1583604521081" duration="21000" />
+      <workItem from="1583643456851" duration="4556000" />
+      <workItem from="1583649044947" duration="17614000" />
+      <workItem from="1583732390722" duration="10378000" />
+>>>>>>> d09aa241203dc0b8c45ac26e7bbc3123bb7584b7
     </task>
     <servers />
   </component>
@@ -282,6 +300,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1581576222992" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583663873265">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583663873265" />
     <state x="459" y="277" key="ComposerInitDialogKey" timestamp="1583144444072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -306,14 +328,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581935643367" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1583053178928">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1583667891968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583053178928" />
-    <state x="0" y="0" width="737" height="728" key="find.popup" timestamp="1583386271717">
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583667891968" />
+    <state x="0" y="0" width="737" height="728" key="find.popup" timestamp="1583734439002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="737" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583386271717" />
+    <state x="0" y="0" width="737" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583734439002" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1581925608396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

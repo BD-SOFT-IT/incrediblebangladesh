@@ -1,22 +1,23 @@
 @extends('back_end.layouts.master')
 
-@section('title','Create Blog')
+@section('title','Edit Blog')
 
 @section('content')
     <div class="container">
-        <form action="{{ route('travel.blog') }}" method="post" autocomplete="off" enctype="multipart/form-data">
+        <form action="{{ route('blog.update') }}" method="post" autocomplete="off">
             <div class="row">
                 <div class="col-lg-9 mx-auto">
                     <!-- Package Details section started -->
                     <div class="card">
-                        <div class="card-header ib-card-header"><h4>Create Blog</h4></div>
+                        <div class="card-header ib-card-header"><h4>Edit Blog</h4></div>
                         <div class="card-body">
                             <div class="form-row mb-3">
                                 <div class="col">
                                     <small class="ib-custom-label">Blog Title <sup
                                             class="text-danger">*</sup></small>
                                     <input type="text" name="blog_title" id="packageTitle"
-                                           class="form-control form-control-sm" placeholder="Two Days for Bangladesh">
+                                           class="form-control form-control-sm" value="{{ $blog->blog_title }}">
+                                    <input type="hidden" name="id" value="{{ $blog->id }}">
                                 </div>
                             </div>
                             <div class="form-row mb-3">
@@ -25,23 +26,14 @@
                                             class="text-danger">*</sup></small>
                                     <input type="text" name="blog_sub_title" id="packageSubTitle"
                                            class="form-control form-control-sm"
-                                           placeholder="Coxsbazar such a beautiful place over the world.">
-                                </div>
-                            </div>
-                            <div class="form-row mb-3">
-                                <div class="col">
-                                    <small class="ib-custom-label">Blog Feature Image<sup
-                                            class="text-danger">*</sup></small>
-                                    <input type="file" name="blog_img" id="packageSubTitle"
-                                           class="form-control form-control-sm"
-                                           placeholder="Coxsbazar such a beautiful place over the world.">
+                                           value="{{ $blog->blog_sub_title }}">
                                 </div>
                             </div>
                             <div class="form-row mb-3">
                                 <div class="col">
                                     <small class="ib-custom-label">Blog Description <sup
                                             class="text-danger">*</sup></small>
-                                    <textarea name="blog_description" id="packageDescription"></textarea>
+                                    <textarea name="blog_description" id="packageDescription">{{ $blog->blog_description }}</textarea>
                                 </div>
                             </div>
                             <div class="form-row mb-3">
