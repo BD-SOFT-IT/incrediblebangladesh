@@ -21,6 +21,7 @@ class CreateTravelPackagesTable extends Migration
             $table->string('package_best_time');
             $table->string('package_duration');
             $table->integer('package_price');
+            $table->string('package_img');
             $table->integer('package_discount')->nullable();
             $table->integer('after_discount_price')->nullable();
             $table->text('package_description');

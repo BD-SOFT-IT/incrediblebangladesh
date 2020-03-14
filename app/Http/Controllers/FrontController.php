@@ -36,6 +36,15 @@ class FrontController extends Controller
         ]);
     }
 
+    public function showDetailsBlog($id)
+    {
+        $blog = BlogPost::findorfail($id);
+
+        return view('front_end.show_blog')->with([
+            'blog'  => $blog
+        ]);
+    }
+
     public function awesomeHolidayPackage($id)
     {
         $package = TravelSchedule::findorfail($id);

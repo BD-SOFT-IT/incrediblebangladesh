@@ -24,11 +24,11 @@
                                     <div class="blog_post">
                                         <img src="{{ asset($blog->blog_img) }}" alt="">
                                         <div class="blog_details">
-                                            <a href="{{ asset('') }}">
+                                            <a href="{{ route('travel.show-blog',$blog->id) }}">
                                                 <h2>{{ $blog->blog_title }}</h2>
                                             </a>
                                             <p>{!! Str::limit($blog->blog_description,270) !!}</p>
-                                            <a href="" class="white_bg_btn">View More</a>
+                                            <a href="" class="blog_button">View More</a>
                                         </div>
                                     </div>
                                 </div>
