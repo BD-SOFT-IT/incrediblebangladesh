@@ -61,10 +61,10 @@
                                aria-haspopup="true"
                                aria-expanded="false">Tours</a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="">Day Tour</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">Feature Tour</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">Upcoming Tour</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">Awesome Holiday</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('all.daily') }}">Day Tour</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('all.feature') }}">Feature Tour</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('all.upcoming') }}">Upcoming Tour</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('all.awesome') }}">Awesome Holiday</a></li>
                             </ul>
                         </li>
                         <li class="nav-item submenu dropdown">

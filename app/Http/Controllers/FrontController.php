@@ -12,9 +12,34 @@ class FrontController extends Controller
 {
     public function home()
     {
+        $awesome_travel = \DB::table('travel_schedules')
+            ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
+            ->select('travel_packages.*','travel_schedules.*')
+            ->where('travel_packages.package_category','=','awesome')
+            ->get();
+
+        $feature_travel = \DB::table('travel_schedules')
+            ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
+            ->select('travel_packages.*','travel_schedules.*')
+            ->where('travel_packages.package_category','=','feature')
+            ->get();
+        $day_travel = \DB::table('travel_schedules')
+            ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
+            ->select('travel_packages.*','travel_schedules.*')
+            ->where('travel_packages.package_category','=','day')
+            ->get();
+        $coming_travel = \DB::table('travel_schedules')
+            ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
+            ->select('travel_packages.*','travel_schedules.*')
+            ->where('travel_packages.package_category','=','upcoming')
+            ->get();
+
         return view('front_end.home')->with([
             'why_incredible'        => WhyIncredible::all(),
-            'travel_schedules'      => TravelSchedule::all()
+
+            'travel_schedules'      => $awesome_travel,
+            'feature_travel'        => $feature_travel,
+            'day_travel'            => $day_travel
         ]);
     }
     public function guide()
@@ -51,6 +76,54 @@ class FrontController extends Controller
 
         return view('front_end.single_package')->with([
             'package'   => $package
+        ]);
+    }
+    public function allAwesome()
+    {
+        $awesome_travel = \DB::table('travel_schedules')
+            ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
+            ->select('travel_packages.*','travel_schedules.*')
+            ->where('travel_packages.package_category','=','awesome')
+            ->get();
+
+        return view('front_end.tour.awesome')->with([
+            'awesome'   => $awesome_travel
+        ]);
+    }
+    public function allDaily()
+    {
+        $day_travel = \DB::table('travel_schedules')
+            ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
+            ->select('travel_packages.*','travel_schedules.*')
+            ->where('travel_packages.package_category','=','day')
+            ->get();
+
+        return view('front_end.tour.day')->with([
+            'day'   => $day_travel
+        ]);
+    }
+    public function allFeature()
+    {
+        $feature_travel = \DB::table('travel_schedules')
+            ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
+            ->select('travel_packages.*','travel_schedules.*')
+            ->where('travel_packages.package_category','=','feature')
+            ->get();
+
+        return view('front_end.tour.feature')->with([
+            'feature'   => $feature_travel
+        ]);
+    }
+    public function allUpcoming()
+    {
+        $coming_travel = \DB::table('travel_schedules')
+            ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
+            ->select('travel_packages.*','travel_schedules.*')
+            ->where('travel_packages.package_category','=','upcoming')
+            ->get();
+
+        return view('front_end.tour.upcoming')->with([
+            'upcoming'  => $coming_travel
         ]);
     }
 }

@@ -17,6 +17,7 @@
                                        <option disable selected> Please Select a Category</option>
                                        @foreach($travel_packages as $package)
                                            <option value="{{ $package->id }}">{{ $package->package_title }}</option>
+
                                        @endforeach
                                    </select>
                                </div>
