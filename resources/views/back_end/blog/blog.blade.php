@@ -17,6 +17,7 @@
                                             class="text-danger">*</sup></small>
                                     <input type="text" name="blog_title" id="packageTitle"
                                            class="form-control form-control-sm" placeholder="Two Days for Bangladesh">
+                                    <input type="hidden" name="blog_author_name" id="" value="{{ \Illuminate\Support\Facades\Auth::user()->name }}">
                                 </div>
                             </div>
                             <div class="form-row mb-3">

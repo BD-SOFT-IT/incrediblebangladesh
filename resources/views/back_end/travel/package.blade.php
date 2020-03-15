@@ -104,7 +104,7 @@
                                    <i class="fa fa-picture-o"></i> Choose
                                  </a>
                                </span>
-                                <input id="thumbnail" class="form-control" type="text" name="filepath">
+                                <input id="thumbnail" class="form-control" type="text" name="package_img">
                             </div>
                             <img id="holder" style="margin-top:15px;max-height:100px;">
 

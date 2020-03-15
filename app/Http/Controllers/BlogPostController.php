@@ -31,6 +31,7 @@ class BlogPostController extends Controller
 
         $blog->blog_title = $request->blog_title;
         $blog->blog_sub_title = $request->blog_sub_title;
+        $blog->blog_author_name = $request->blog_author_name;
         $blog->blog_description = $request->blog_description;
         $blog->blog_img = $blog_img;
 

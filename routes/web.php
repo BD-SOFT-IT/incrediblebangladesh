@@ -18,6 +18,7 @@ Route::get('guide','FrontController@guide')->name('travel.guide');
 //Route::get('login','FrontController@showLoginForm')->name('travel.login');
 
 Route::get('blog','FrontController@showBlog')->name('travel.tour-blog');
+Route::get('details/{id}','FrontController@showDetailsBlog')->name('travel.show-blog');
 
 Route::get('reservation','FrontController@makeReservation')->name('travel.reservation');
 

@@ -7223,6 +7223,11 @@ label {
     display: inline-block;
     color: #222222;
 }
+.blog_button {
+    background-color: #005cbf;
+    height: 34px;
+    width: 55px;
+}
 
 .blog_details {
     padding-top: 20px;
@@ -7551,6 +7556,7 @@ label {
 }
 
 /*============ Start Blog Single Styles  =============*/
+
 .single-post-area .social-links {
     padding-top: 10px;
 }
