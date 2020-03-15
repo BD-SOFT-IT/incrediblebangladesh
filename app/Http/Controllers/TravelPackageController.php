@@ -9,6 +9,11 @@ use Illuminate\Http\Request;
 
 class TravelPackageController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('is_admin');
+    }
+
     public function showAllPackages()
     {
         return view('back_end.travel.packages')->with([
