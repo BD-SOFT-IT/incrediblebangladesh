@@ -24,6 +24,10 @@ Route::get('reservation','FrontController@makeReservation')->name('travel.reserv
 
 Route::get('single/package/{id}','FrontController@awesomeHolidayPackage')->name('single.package');
 
+Route::get('awesome','FrontController@allAwesome')->name('all.awesome');
+Route::get('daily','FrontController@allDaily')->name('all.daily');
+Route::get('feature','FrontController@allFeature')->name('all.feature');
+Route::get('upcoming','FrontController@allUpcoming')->name('all.upcoming');
 
 
 Auth::routes();

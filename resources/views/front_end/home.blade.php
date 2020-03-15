@@ -81,18 +81,19 @@
                 <div class="col-lg-12 mx-auto test">
                     <div class="owl-carousel owl-theme">
                         @foreach($travel_schedules as $p)
+
                             <div class="item mt-5">
                                 <div class="ib-aw-holiday">
                                     <div class="ib-aw-holiday-left">
-                                        <img src="{{ asset($p->package->package_img) }}" alt="" height="240">
+                                        <img src="{{ asset($p->package_img) }}" alt="" height="240">
                                         <h4 class="mt-4">{{ date('d M, Y',strtotime($p->package_schedule)) }}</h4>
                                         <h3>{{ date('h:i:s',strtotime($p->package_schedule_time)) }}</h3>
                                     </div>
                                     <div class="ib-aw-holiday-right">
-                                        <h4><a href="{{ route('single.package',$p->package_id) }}">{{ $p->package->package_title }}</a></h4>
-                                        <span>{{ $p->package->package_sub_title }}</span>
-                                        <h5>{{ $p->package->package_price }}</h5>
-                                        <p class="mt-4">{!! Str::limit($p->package->package_description,150) !!}</p>
+                                        <h4><a href="{{ route('single.package',$p->package_id) }}">{{ $p->package_title }}</a></h4>
+                                        <span>{{ $p->package_sub_title }}</span>
+                                        <h5>{{ $p->package_price }}</h5>
+                                        <p class="mt-4">{!! Str::limit($p->package_description,150) !!}</p>
                                     </div>
                                 </div>
                             </div>
@@ -105,19 +106,52 @@
     <!-- End awesome holiday package area -->
 
     <!-- Start Feature holiday package area -->
-{{--    <section class="">--}}
-{{--        <div class="container">--}}
-{{--            <h2 class="ib-headline text-center">Feature Holiday Package</h2>--}}
-{{--            <span class="ib-headline-img"><img src={{ asset('front_end/img/headline.png') }} alt=""></span>--}}
-{{--            <div class="row">--}}
-{{--                <div class="col-lg-12 mx-auto test">--}}
-{{--                    <div class="">--}}
+    <section class="section_gap_75">
+        <div class="container">
+            <h2 class="ib-headline text-center">Feature Holiday Package</h2>
+            <span class="ib-headline-img"><img src={{ asset('front_end/img/headline.png') }} alt=""></span>
+            <div class="row">
+                <div class="col-lg-12 mx-auto test">
+                    <div class="owl-carousel owl-theme">
+                        @foreach($feature_travel as $p)
 
-{{--                    </div>--}}
+                            <div class="item mt-5">
+                                <div class="ib-aw-holiday">
+                                    <div class="ib-aw-holiday-left">
+                                        <img src="{{ asset($p->package_img) }}" alt="" height="240">
+                                        <h4 class="mt-4">{{ date('d M, Y',strtotime($p->package_schedule)) }}</h4>
+                                        <h3>{{ date('h:i:s',strtotime($p->package_schedule_time)) }}</h3>
+                                    </div>
+                                    <div class="ib-aw-holiday-right">
+                                        <h4><a href="{{ route('single.package',$p->package_id) }}">{{ $p->package_title }}</a></h4>
+                                        <span>{{ $p->package_sub_title }}</span>
+                                        <h5>{{ $p->package_price }}</h5>
+                                        <p class="mt-4">{!! Str::limit($p->package_description,150) !!}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature holiday package area -->
+
+    <!-- Start Daily Holiday Package area-->
+{{--    <section class="section_gap_75">--}}
+{{--        <div class="container">--}}
+{{--            <h2 class="ib-headline text-center">Daily Holiday Package</h2>--}}
+{{--            <span class="ib-headline-img"><img src={{ asset('front_end/img/headline.png') }} alt=""></span>--}}
+{{--            @foreach($day_travel->chunk(3) as $chunk)--}}
+{{--                <div class="row">--}}
+{{--                    @foreach($chunk as $day)--}}
+{{--                        --}}
+{{--                    @endforeach--}}
 {{--                </div>--}}
-{{--            </div>--}}
+{{--            @endforeach--}}
 {{--        </div>--}}
 {{--    </section>--}}
-    <!-- End Feature holiday package area -->
+    <!-- End Daily Holiday Package area-->
 
 @endsection
