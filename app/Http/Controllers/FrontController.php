@@ -78,6 +78,7 @@ class FrontController extends Controller
             'package'   => $package
         ]);
     }
+
     public function allAwesome()
     {
         $awesome_travel = \DB::table('travel_schedules')
@@ -125,5 +126,76 @@ class FrontController extends Controller
         return view('front_end.tour.upcoming')->with([
             'upcoming'  => $coming_travel
         ]);
+
+	}
+    public function hotelResort()
+    {
+        return view('front_end.form.hotel-resort');
+    }
+
+    public function hotelResortProcess()
+    {
+        //later
+    }
+
+    public function busTicket()
+    {
+        return view('front_end.form.bus-ticket');
+    }
+
+    public function busTicketProcess()
+    {
+        //later
+    }
+
+    public function shipTicket()
+    {
+        return view('front_end.form.ship-ticket');
+    }
+
+    public function shipTicketProcess()
+    {
+        //later
+    }
+
+    public function trainTicket()
+    {
+        return view('front_end.form.train-ticket');
+    }
+
+    public function trainTicketProcess()
+    {
+        //later
+    }
+
+    public function airTicket()
+    {
+        return view('front_end.form.air-ticket');
+    }
+
+    public function airTicketProcess()
+    {
+        //later
+    }
+
+    public function carRent()
+    {
+        return view('front_end.form.car-rent');
+    }
+
+    public function carRentProcess()
+    {
+        //later
+    }
+
+    public function visaSupport()
+    {
+        return view('front_end.form.visa-support');
+    }
+
+    public function visaSupportProcess()
+    {
+        //later
+
     }
 }

@@ -72,19 +72,21 @@
                                aria-haspopup="true"
                                aria-expanded="false">Reservation</a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="">Hotel & Resort</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">Bus Ticket</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">Ship Ticket</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">Train Ticket</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">Air Ticket</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">Car Rent</a></li>
-                                <li class="nav-item"><a class="nav-link" href="">Visa Support</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('hotel.resort') }}">Hotel & Resort</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('bus.ticket') }}">Bus Ticket</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('ship.ticket') }}">Ship Ticket</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('train.ticket') }}">Train Ticket</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('air.ticket') }}">Air Ticket</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('car.rent') }}">Car Rent</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('visa.support') }}">Visa Support</a></li>
                             </ul>
                         </li>
                         <li class="nav-item {{ request()->is('guide') ? 'active' : '' }}"><a class="nav-link" href="{{ route('travel.guide') }}">Guide</a></li>
                         <li class="nav-item {{ request()->is('login') ? 'active' : '' }}"><a class="nav-link" href="{{ route('login') }}"><i class="fa fa-sign-in mr-1"></i>
                                 @if(\Illuminate\Support\Facades\Auth::check())
-                                    {{ \Illuminate\Support\Facades\Auth::user()->name }}
+                                    <a href="{{ route('admin.dashboard') }}">
+                                        {{ \Illuminate\Support\Facades\Auth::user()->name }}
+                                    </a>
                                 @else
                                     Login
                                 @endif
