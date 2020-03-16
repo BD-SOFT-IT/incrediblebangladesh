@@ -26,7 +26,7 @@ class FrontController extends Controller
         $day_travel = \DB::table('travel_schedules')
             ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
             ->select('travel_packages.*','travel_schedules.*')
-            ->where('travel_packages.package_category','=','day')
+            ->where('travel_packages.package_category','=','daily')
             ->get();
         $coming_travel = \DB::table('travel_schedules')
             ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
@@ -96,7 +96,7 @@ class FrontController extends Controller
         $day_travel = \DB::table('travel_schedules')
             ->join('travel_packages', 'travel_schedules.package_id','=','travel_packages.id')
             ->select('travel_packages.*','travel_schedules.*')
-            ->where('travel_packages.package_category','=','day')
+            ->where('travel_packages.package_category','=','daily')
             ->get();
 
         return view('front_end.tour.day')->with([
