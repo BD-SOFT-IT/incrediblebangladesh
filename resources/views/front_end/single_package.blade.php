@@ -49,7 +49,7 @@
                 <div class="ib-content-sub-header px-4 py-4">
                     <h6>More About {{ $package->package->package_title }}</h6>
                     <div class="ib-side-img-wrapper my-3">
-                        <img class="ib-side-img" src="{{ asset('back_end/img/unsplash/demo.jpg') }}" alt="" width="120">
+                        <img class="ib-side-img" src="{{ asset($package->package->package_img) }}" alt="" width="120">
                         <h4 class="ib-package-cost"><b class="mr-2">৳</b>{{ number_format($package->package->package_price) }}</h4>
                     </div>
                     <h6>Location :             <span> {{ $package->package->package_location }}</span></h6>

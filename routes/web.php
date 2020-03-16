@@ -22,7 +22,7 @@ Route::get('details/{id}','FrontController@showDetailsBlog')->name('travel.show-
 
 Route::get('reservation','FrontController@makeReservation')->name('travel.reservation');
 
-Route::get('single/package/{id}','FrontController@awesomeHolidayPackage')->name('single.package');
+Route::get('single/package/{id}','FrontController@holidayPackage')->name('single.package');
 
 Route::get('awesome','FrontController@allAwesome')->name('all.awesome');
 Route::get('daily','FrontController@allDaily')->name('all.daily');
