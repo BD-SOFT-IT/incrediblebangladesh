@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class WhyIncredibleController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('is_admin');
+    }
+
     public function showForm()
     {
         return view('back_end.why_incredible')->with([

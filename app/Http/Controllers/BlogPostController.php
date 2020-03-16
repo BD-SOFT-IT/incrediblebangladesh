@@ -8,6 +8,11 @@ use Illuminate\Http\Request;
 
 class BlogPostController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('is_admin');
+    }
+
     public function showAllBlog()
     {
         return view('back_end.blog.blogs')->with([

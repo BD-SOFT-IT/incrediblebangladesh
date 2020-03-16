@@ -10,6 +10,11 @@ class TravelScheduleController extends Controller
 {
     // Packages schedules functionality
 
+    public function __construct()
+    {
+        $this->middleware('is_admin');
+    }
+
     public function showAllSchedules()
     {
         return view('back_end.travel.schedules')->with([
