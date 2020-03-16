@@ -35,11 +35,7 @@ class TravelPackageController extends Controller
 
         TravelPackage::create($request->all());
 
-        return redirect()->back();
-
-
-//        return view('back_end.test')->with([
-//            'request'   => $request
-//        ]);
+        return redirect()->back()->with('message','Package created successfully.');
+        
     }
 }

@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
          $this->call([
-             PackageCategorySeeder::class,
+//             PackageCategorySeeder::class,
              WhyIncredibleSeeder::class,
 //             TravelPackageSeeder::class,
              UsersTableSeeder::class,

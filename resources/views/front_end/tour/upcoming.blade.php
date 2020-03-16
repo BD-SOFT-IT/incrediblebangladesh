@@ -1,6 +1,6 @@
 @extends('front_end.layouts.master')
 
-@section('title','Daily Holiday')
+@section('title','Upcoming Holiday')
 
 @section('content')
     <div class="container">
@@ -12,8 +12,8 @@
                             <img class="card-img-top" src="{{ asset($up->package_img) }}" alt="Card image" >
                             <div class="card-body">
                                 <h3>{{ $up->package_title }}</h3>
-                                <h4 class="ib-package-cost"><b class="mr-2">৳</b>{{ number_format($up->package_price) }}</h4>
-                                <p>{!! Str::limit($up->package_sub_title,100) !!}</p>
+                                <p>{{ Str::limit($up->package_sub_title,100) }}</p>
+                                <h4 class="ib-package-cost"><b class="mr-2 mb-2">৳</b>{{ number_format($up->package_price) }}</h4>
                                 <h6><a href="{{ route('single.package',$up->id) }}">Read More</a></h6>
                             </div>
                         </div>

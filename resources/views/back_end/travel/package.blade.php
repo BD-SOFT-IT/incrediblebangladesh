@@ -7,6 +7,9 @@
         <form action="{{ route('travel.package') }}" method="post" >
             <div class="row">
                 <div class="col-lg-7">
+                    @if(Session::has('message'))
+                        <h4 class="text-success">{{ Session::get('message') }}</h4>
+                @endif
                     <!-- Package Details section started -->
                     <div class="card">
                         <div class="card-header ib-card-header"><h4>Create Package</h4></div>

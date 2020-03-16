@@ -6,6 +6,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
+                @if(Session::has('message'))
+                    <h3 class="text-success">{{ Session::get('message') }}</h3>
+                @endif
                 <table class="table table-bordered table-striped table-hover" id="packageScheduleTable">
                     <thead>
                     <tr>

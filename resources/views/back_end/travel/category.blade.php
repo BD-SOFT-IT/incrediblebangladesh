@@ -6,11 +6,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
+                @if(Session::has('message'))
+                    <h3 class="text-success">{{ Session::get('message') }}</h3>
+                @endif
                 <div class="card">
                     <div class="card-header ib-card-header"><h4 class="">Create Package Category</h4></div>
-                    @if(Session::has('message'))
-                        {{ Session::get('message') }}
-                    @endif
                     <div class="card-body">
                         <form action="{{ route('travel.category') }}" method="post" autocomplete="off">
                             @csrf
