@@ -70,7 +70,7 @@ class FrontController extends Controller
         ]);
     }
 
-    public function awesomeHolidayPackage($id)
+    public function holidayPackage($id)
     {
         $package = TravelSchedule::findorfail($id);
 
