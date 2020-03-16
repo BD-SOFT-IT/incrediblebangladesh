@@ -17,16 +17,28 @@
                             <div class="form-row mb-3">
                                 <div class="col">
                                     <label for="categoryName" class="ib-custom-label">Category Title <sup class="text-danger">*</sup></label>
-                                    <input type="text" name="category_title" id="categoryName" class="form-control form-control-sm" placeholder="Awesome Holiday Package">
+                                    <input type="text" name="category_title" id="categoryName" class="form-control form-control-sm" placeholder="Awesome Holiday Package" onblur="setCategoryTag()">
                                 </div>
                             </div>
                             <div class="form-row mb-3">
                                 <div class="col">
                                     <label for="categoryTag" class="ib-custom-label">Category Tags <sup class="text-danger">*</sup></label>
-                                    <input type="text" name="category_tag" id="categoryTag" class="form-control form-control-sm" placeholder="Travel, Natural, Ocean">
+                                    <input type="text" name="category_tag" id="categoryTag" class="form-control form-control-sm" placeholder="Travel, Natural, Ocean" readonly>
                                     <small class="text-muted">Provide your package SEO friendly tags</small>
                                 </div>
                             </div>
+                            <script>
+                                function setCategoryTag() {
+
+                                    var getCategoryName = document.getElementById('categoryName').value;
+
+                                    var slicedRequestCategoryName = getCategoryName.split(" ")[0];
+                                    var finalRequestCategoryName = slicedRequestCategoryName.toLowerCase();
+
+                                    document.getElementById('categoryTag').value =  finalRequestCategoryName;
+
+                                }
+                            </script>
                             <div class="form-row mt-4">
                                 <div class="col">
                                     <input type="submit" class="btn btn-success-extended" value="Submit">
