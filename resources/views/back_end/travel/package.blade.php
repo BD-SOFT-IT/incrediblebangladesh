@@ -18,7 +18,7 @@
                                     <select name="package_category" id="packageCategory" class="form-control">
                                         <option disable selected> Please Select a Category</option>
                                         @foreach($travel_categories as $category)
-                                            <option value="{{ $category->category_title}}"> {{ $category->category_title }}</option>
+                                            <option value="{{ $category->category_tag}}"> {{ $category->category_title }}</option>
                                         @endforeach
                                     </select>
                                 </div>
